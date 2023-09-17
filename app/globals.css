@@ -155,6 +155,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #000;
 }
 .resultPrize{
   width: 100%;
@@ -165,6 +166,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #000;
 }
 .resultPrize hr{
   width: 1px;
@@ -246,6 +248,9 @@ input::-webkit-inner-spin-button {
 }
 .bg_incorrect .textSub,.bg_incorrect .textResult{
   color: #ff0000;
+}
+.bg_correct p, .bg_incorrect p{
+  color: #000;
 }
 @media(max-width:1200px){
   .headerName {
